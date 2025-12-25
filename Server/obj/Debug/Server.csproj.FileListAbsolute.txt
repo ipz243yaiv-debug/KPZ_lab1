@@ -1,0 +1,12 @@
+C:\Users\Worker\source\repos\ChatDemoWCF\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\Worker\source\repos\ChatDemoWCF\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\Worker\source\repos\ChatDemoWCF\Server\bin\Debug\Server.exe.config
+C:\Users\Worker\source\repos\ChatDemoWCF\Server\bin\Debug\Server.exe
+C:\Users\Worker\source\repos\ChatDemoWCF\Server\bin\Debug\Server.pdb
+C:\Users\Worker\source\repos\ChatDemoWCF\Server\bin\Debug\ChatLibrary.dll
+C:\Users\Worker\source\repos\ChatDemoWCF\Server\bin\Debug\ChatLibrary.pdb
+C:\Users\Worker\source\repos\ChatDemoWCF\Server\bin\Debug\ChatLibrary.dll.config
+C:\Users\Worker\source\repos\ChatDemoWCF\Server\obj\Debug\Server.csproj.Up2Date
+C:\Users\Worker\source\repos\ChatDemoWCF\Server\obj\Debug\Server.exe
+C:\Users\Worker\source\repos\ChatDemoWCF\Server\obj\Debug\Server.pdb
+C:\Users\Worker\source\repos\ChatDemoWCF\Server\obj\Debug\Server.exe.config
