@@ -71,8 +71,6 @@ namespace ChatLibrary
             var sender = usersList.FirstOrDefault(u => u.Id == senderId);
             if (sender == null) return;
 
-            string formattedMsg = $"{DateTime.Now.ToShortTimeString()} {sender.Name}: {message}";
-
             if (targetId.HasValue)
             {
                 var receiver = usersList.FirstOrDefault(u => u.Id == targetId.Value);
@@ -80,24 +78,41 @@ namespace ChatLibrary
                 {
                     try
                     {
-                        receiver.Context.GetCallbackChannel<IChatServiceCallback>().SendMessageToClient("[Приватно] " + formattedMsg);
-                        sender.Context.GetCallbackChannel<IChatServiceCallback>().SendMessageToClient("[Ви для " + receiver.Name + "] " + message);
+                        receiver.Context.GetCallbackChannel<IChatServiceCallback>().SendMessageToClient($"[Приватно від {sender.Name}]: {message}");
+                        sender.Context.GetCallbackChannel<IChatServiceCallback>().SendMessageToClient($"[Ви для {receiver.Name}]: {message}");
                     }
-                    catch { }
+                    catch
+                    {
+                        HandleDisconnect(receiver);
+                    }
                 }
             }
             else
             {
+                string broadcastMsg = $"{sender.Name}: {message}";
                 foreach (var user in usersList.ToList())
                 {
                     try
                     {
-                        user.Context.GetCallbackChannel<IChatServiceCallback>().SendMessageToClient(formattedMsg);
+                        user.Context.GetCallbackChannel<IChatServiceCallback>().SendMessageToClient(broadcastMsg);
                     }
-                    catch { }
+                    catch
+                    {
+                        HandleDisconnect(user);
+                    }
                 }
             }
         }
+
+        private void HandleDisconnect(ChatUser user)
+        {
+            if (usersList.Contains(user))
+            {
+                usersList.Remove(user);
+                NotifyUsersUpdated();
+            }
+        }
+        
 
         private void NotifyUsersUpdated()
         {

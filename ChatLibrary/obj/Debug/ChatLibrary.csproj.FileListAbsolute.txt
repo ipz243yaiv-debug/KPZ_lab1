@@ -179,7 +179,6 @@ C:\Users\Worker\source\repos\ChatDemoWCF\ChatLibrary\bin\Debug\System.Threading.
 C:\Users\Worker\source\repos\ChatDemoWCF\ChatLibrary\bin\Debug\System.ValueTuple.xml
 C:\Users\Worker\source\repos\ChatDemoWCF\ChatLibrary\bin\Debug\System.Web.Services.Description.pdb
 C:\Users\Worker\source\repos\ChatDemoWCF\ChatLibrary\obj\Debug\ChatLibrary.csproj.AssemblyReference.cache
-C:\Users\Worker\source\repos\ChatDemoWCF\ChatLibrary\obj\Debug\ChatLibrary.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Worker\source\repos\ChatDemoWCF\ChatLibrary\obj\Debug\ChatLibrary.csproj.CoreCompileInputs.cache
 C:\Users\Worker\source\repos\ChatDemoWCF\ChatLibrary\obj\Debug\ChatLibr.787B135D.Up2Date
 C:\Users\Worker\source\repos\ChatDemoWCF\ChatLibrary\obj\Debug\ChatLibrary.dll
