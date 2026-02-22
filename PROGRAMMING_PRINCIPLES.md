@@ -12,7 +12,7 @@
 
     
 
-2. Interface Segregation Principle (ISP) - Принцип розділення інтерфейсу
+## 2. Interface Segregation Principle (ISP) - Принцип розділення інтерфейсу
 
 Програмні сутності не повинні залежати від методів, які вони не використовують.
 
@@ -23,7 +23,7 @@
     Інтерфейс IChatServiceCallback: Окремий інтерфейс для зворотних викликів (callback), що дозволяє клієнту реалізовувати лише логіку оновлення інтерфейсу.
 
         ChatLibrary/ChatService.cs:20
-3. Don't Repeat Yourself (DRY) - Не повторюйся
+## 3. Don't Repeat Yourself (DRY) - Не повторюйся
 
 Уникання дублювання логіки в коді.
 
@@ -31,7 +31,7 @@
 
         ChatLibrary/ChatService.cs:94
 
-4. KISS (Keep It Simple, Stupid) - Роби це простіше
+## 4. KISS (Keep It Simple, Stupid) - Роби це простіше
 
 Фокус на уникненні зайвої складності та збереженні читабельності.
 
@@ -39,7 +39,7 @@
 
         ChatLibrary/ChatService.cs:45
 
-5. Separation of Concerns - Розподіл відповідальностей
+## 5. Separation of Concerns - Розподіл відповідальностей
 
 Розподіл програми на окремі логічні секції.
 
