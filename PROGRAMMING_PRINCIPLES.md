@@ -1,5 +1,5 @@
 # Принципи програмування в проєкті ChatDemoWCF
-## 1. Single Responsibility Principle (SRP) - Принцип єдиної відповідальності
+## 1. Single Responsibility Principle
 
 Кожен клас повинен мати лише одну причину для зміни.
 
@@ -13,7 +13,7 @@
 
     
 
-## 2. Interface Segregation Principle (ISP) - Принцип розділення інтерфейсу
+## 2. Interface Segregation Principle
 
 Програмні сутності не повинні залежати від методів, які вони не використовують.
 
@@ -24,7 +24,7 @@
 * Інтерфейс IChatServiceCallback: Окремий інтерфейс для зворотних викликів (callback), що дозволяє клієнту реалізовувати лише логіку оновлення інтерфейсу.
 
     [ChatLibrary/ChatService.cs:20](https://github.com/ipz243yaiv-debug/KPZ_lab1/blob/main/ChatLibrary/Class1.cs#L21-L28)
-## 3. Don't Repeat Yourself (DRY) - Не повторюйся
+## 3. Don't Repeat Yourself
 
 Уникання дублювання логіки в коді.
 
@@ -32,7 +32,7 @@
 
     [ChatLibrary/ChatService.cs:94](https://github.com/ipz243yaiv-debug/KPZ_lab1/blob/main/ChatLibrary/Class1.cs#L102-L117)
 
-## 4. KISS (Keep It Simple, Stupid) - Роби це простіше
+## 4. KISS
 
 Фокус на уникненні зайвої складності та збереженні читабельності.
 
@@ -40,10 +40,10 @@
 
     [ChatLibrary/ChatService.cs:45](https://github.com/ipz243yaiv-debug/KPZ_lab1/blob/main/ChatLibrary/Class1.cs#L43-L57)
 
-## 5. Separation of Concerns - Розподіл відповідальностей
+## 5. Separation of Concerns 
 
 Розподіл програми на окремі логічні секції.
 
 * Архітектура рішення: Проєкт чітко розділений на незалежні модулі: ChatLibrary (бізнес-логіка), Server (хостинг) та Client (UI), що спрощує підтримку та розгортання.
 
-        Root Directory
+    [Root Directory](https://github.com/ipz243yaiv-debug/KPZ_lab1)
