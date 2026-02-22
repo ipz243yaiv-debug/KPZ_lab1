@@ -30,7 +30,7 @@
 
 * Метод NotifyUsersUpdated: Вся логіка оновлення списку користувачів винесена в один приватний метод, який викликається як при підключенні, так і при відключенні клієнтів.
 
-        ChatLibrary/ChatService.cs:94
+    [ChatLibrary/ChatService.cs:94](https://github.com/ipz243yaiv-debug/KPZ_lab1/blob/main/ChatLibrary/Class1.cs#L102-L117)
 
 ## 4. KISS (Keep It Simple, Stupid) - Роби це простіше
 
