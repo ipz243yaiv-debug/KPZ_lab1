@@ -19,7 +19,7 @@
 
 * Інтерфейс IChatService: Визначає тільки методи для вхідних запитів від клієнта до сервера (Connect, Disconnect, SendMessage).
 
-        ChatLibrary/ChatService.cs:10
+    [ChatLibrary/ChatService.cs:10](https://github.com/ipz243yaiv-debug/KPZ_lab1/blob/main/ChatLibrary/Class1.cs#L8-L20)
 
 * Інтерфейс IChatServiceCallback: Окремий інтерфейс для зворотних викликів (callback), що дозволяє клієнту реалізовувати лише логіку оновлення інтерфейсу.
 
