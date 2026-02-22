@@ -5,11 +5,11 @@
 
 * Клас ChatUser: Відповідає виключно за представлення моделі даних користувача (ID, ім'я та контекст з'єднання). Він не містить бізнес-логіки розсилки або валідації повідомлень.
 
-    [ChatLibrary/ChatService.cs:36](https://github.com/ipz243yaiv-debug/KPZ_lab1/blob/main/ChatLibrary/Class1.cs#L30-L35)
+    [ChatLibrary/ChatService.cs:30-35](https://github.com/ipz243yaiv-debug/KPZ_lab1/blob/main/ChatLibrary/Class1.cs#L30-L35)
 
 * Клас Program (Server): Містить лише логіку ініціалізації та запуску WCF хоста, не втручаючись у роботу самого сервісу чату.
 
-    [Server/Program.cs:13](https://github.com/ipz243yaiv-debug/KPZ_lab1/blob/main/Server/Program.cs#L13-L22)
+    [Server/Program.cs:13-22](https://github.com/ipz243yaiv-debug/KPZ_lab1/blob/main/Server/Program.cs#L13-L22)
 
     
 
@@ -19,18 +19,18 @@
 
 * Інтерфейс IChatService: Визначає тільки методи для вхідних запитів від клієнта до сервера (Connect, Disconnect, SendMessage).
 
-    [ChatLibrary/ChatService.cs:10](https://github.com/ipz243yaiv-debug/KPZ_lab1/blob/main/ChatLibrary/Class1.cs#L8-L20)
+    [ChatLibrary/ChatService.cs:8-20](https://github.com/ipz243yaiv-debug/KPZ_lab1/blob/main/ChatLibrary/Class1.cs#L8-L20)
 
 * Інтерфейс IChatServiceCallback: Окремий інтерфейс для зворотних викликів (callback), що дозволяє клієнту реалізовувати лише логіку оновлення інтерфейсу.
 
-    [ChatLibrary/ChatService.cs:20](https://github.com/ipz243yaiv-debug/KPZ_lab1/blob/main/ChatLibrary/Class1.cs#L21-L28)
+    [ChatLibrary/ChatService.cs:21-28](https://github.com/ipz243yaiv-debug/KPZ_lab1/blob/main/ChatLibrary/Class1.cs#L21-L28)
 ## 3. Don't Repeat Yourself
 
 Уникання дублювання логіки в коді.
 
 * Метод NotifyUsersUpdated: Вся логіка оновлення списку користувачів винесена в один приватний метод, який викликається як при підключенні, так і при відключенні клієнтів.
 
-    [ChatLibrary/ChatService.cs:94](https://github.com/ipz243yaiv-debug/KPZ_lab1/blob/main/ChatLibrary/Class1.cs#L102-L117)
+    [ChatLibrary/ChatService.cs:102-117](https://github.com/ipz243yaiv-debug/KPZ_lab1/blob/main/ChatLibrary/Class1.cs#L102-L117)
 
 ## 4. KISS
 
@@ -38,7 +38,7 @@
 
 * Метод Connect: Виконує лише мінімально необхідний набір дій: перевірку дублікатів, створення об'єкта та сповіщення інших користувачів. Використання стандартних засобів LINQ (RemoveAll) робить логіку прозорою.
 
-    [ChatLibrary/ChatService.cs:45](https://github.com/ipz243yaiv-debug/KPZ_lab1/blob/main/ChatLibrary/Class1.cs#L43-L57)
+    [ChatLibrary/ChatService.cs:43-57](https://github.com/ipz243yaiv-debug/KPZ_lab1/blob/main/ChatLibrary/Class1.cs#L43-L57)
 
 ## 5. Separation of Concerns 
 
