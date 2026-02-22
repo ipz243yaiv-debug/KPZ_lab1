@@ -12,6 +12,15 @@ namespace Client
         public Form1()
         {
             InitializeComponent();
+            var connector = ChatServerConnector.GetInstance();
+
+            connector.OnMessageReceived += (msg) => {
+                this.Invoke(new Action(() => AddMessage(msg)));
+            };
+
+            connector.OnUsersUpdated += (users) => {
+                this.Invoke(new Action(() => UpdateOnlineList(users)));
+            };
         }
 
         private void button1_Click(object sender, EventArgs e)

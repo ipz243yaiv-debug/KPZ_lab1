@@ -13,6 +13,9 @@ namespace Client
         private ChatServiceClient Client;
         private int UserId;
 
+        public event Action<string> OnMessageReceived;
+        public event Action<Dictionary<int, string>> OnUsersUpdated;
+
         private ChatServerConnector()
         {
             InstanceContext context = new InstanceContext(this);
@@ -40,18 +43,12 @@ namespace Client
 
         public void SendMessageToClient(string message)
         {
-            var form = Application.OpenForms["Form1"] as Form1;
-            form?.Invoke(new Action(() => {
-                form.AddMessage(message);
-            }));
+            OnMessageReceived?.Invoke(message);
         }
 
         public void UpdateUsersList(Dictionary<int, string> users)
         {
-            var form = Application.OpenForms["Form1"] as Form1;
-            form?.Invoke(new Action(() => {
-                form.UpdateOnlineList(users);
-            }));
+            OnUsersUpdated?.Invoke(users);
         }
 
         public void Disconnect()
