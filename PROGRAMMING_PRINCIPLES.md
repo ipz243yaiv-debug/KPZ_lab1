@@ -5,7 +5,7 @@
 
 * Клас ChatUser: Відповідає виключно за представлення моделі даних користувача (ID, ім'я та контекст з'єднання). Він не містить бізнес-логіки розсилки або валідації повідомлень.
 
-ChatLibrary/ChatService.cs:36
+    ChatLibrary/ChatService.cs:36(https://github.com/ipz243yaiv-debug/KPZ_lab1/blob/main/ChatLibrary/Class1.cs#L30-L35)
 
 * Клас Program (Server): Містить лише логіку ініціалізації та запуску WCF хоста, не втручаючись у роботу самого сервісу чату.
 
