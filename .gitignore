@@ -4,3 +4,11 @@ obj/
 bin/
 obj/
 bin/
+
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+obj/ 
+bin/

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Worker\\source\\repos\\ChatDemoWCF\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F451B8CF-71ED-4A80-892D-B6B35A6FE984}|Server\\Server.csproj|C:\\Users\\Worker\\source\\repos\\ChatDemoWCF\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F451B8CF-71ED-4A80-892D-B6B35A6FE984}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32B4AF46-DECF-4E1B-AF29-00A65519B28D}|Client\\Client.csproj|C:\\Users\\Worker\\source\\repos\\ChatDemoWCF\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32B4AF46-DECF-4E1B-AF29-00A65519B28D}|Client\\Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{32B4AF46-DECF-4E1B-AF29-00A65519B28D}|Client\\Client.csproj|c:\\users\\worker\\source\\repos\\chatdemowcf\\client\\chatserverconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32B4AF46-DECF-4E1B-AF29-00A65519B28D}|Client\\Client.csproj|solutionrelative:client\\chatserverconnector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{32B4AF46-DECF-4E1B-AF29-00A65519B28D}|Client\\Client.csproj|C:\\Users\\Worker\\source\\repos\\ChatDemoWCF\\client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{32B4AF46-DECF-4E1B-AF29-00A65519B28D}|Client\\Client.csproj|solutionrelative:client\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F451B8CF-71ED-4A80-892D-B6B35A6FE984}|Server\\Server.csproj|C:\\Users\\Worker\\source\\repos\\ChatDemoWCF\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F451B8CF-71ED-4A80-892D-B6B35A6FE984}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32B4AF46-DECF-4E1B-AF29-00A65519B28D}|Client\\Client.csproj|C:\\Users\\Worker\\source\\repos\\ChatDemoWCF\\client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32B4AF46-DECF-4E1B-AF29-00A65519B28D}|Client\\Client.csproj|solutionrelative:client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F451B8CF-71ED-4A80-892D-B6B35A6FE984}|Server\\Server.csproj|C:\\Users\\Worker\\source\\repos\\ChatDemoWCF\\server\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -45,17 +45,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ChatServerConnector.cs",
               "DocumentMoniker": "C:\\Users\\Worker\\source\\repos\\ChatDemoWCF\\Client\\ChatServerConnector.cs",
               "RelativeDocumentMoniker": "Client\\ChatServerConnector.cs",
               "ToolTip": "C:\\Users\\Worker\\source\\repos\\ChatDemoWCF\\Client\\ChatServerConnector.cs",
               "RelativeToolTip": "Client\\ChatServerConnector.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCgAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwEAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-24T22:57:57.463Z",
               "EditorCaption": ""
@@ -66,19 +66,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Worker\\source\\repos\\ChatDemoWCF\\Client\\Program.cs",
               "RelativeDocumentMoniker": "Client\\Program.cs",
               "ToolTip": "C:\\Users\\Worker\\source\\repos\\ChatDemoWCF\\Client\\Program.cs",
               "RelativeToolTip": "Client\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T10:40:09.922Z"
+              "WhenOpened": "2025-12-25T10:40:09.922Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Worker\\source\\repos\\ChatDemoWCF\\Client\\Form1.cs",
               "RelativeDocumentMoniker": "Client\\Form1.cs",
@@ -125,31 +126,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\Worker\\source\\repos\\ChatDemoWCF\\ChatLibrary\\Class1.cs",
               "RelativeDocumentMoniker": "ChatLibrary\\Class1.cs",
               "ToolTip": "C:\\Users\\Worker\\source\\repos\\ChatDemoWCF\\ChatLibrary\\Class1.cs",
               "RelativeToolTip": "ChatLibrary\\Class1.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAwwBYAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAuwHYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T22:23:12.031Z"
+              "WhenOpened": "2025-12-24T22:23:12.031Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Worker\\source\\repos\\ChatDemoWCF\\Server\\Program.cs",
               "RelativeDocumentMoniker": "Server\\Program.cs",
               "ToolTip": "C:\\Users\\Worker\\source\\repos\\ChatDemoWCF\\Server\\Program.cs",
               "RelativeToolTip": "Server\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T22:22:19.471Z"
+              "WhenOpened": "2025-12-24T22:22:19.471Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Worker\\source\\repos\\ChatDemoWCF\\Client\\Form1.cs",
               "RelativeDocumentMoniker": "Client\\Form1.cs",
