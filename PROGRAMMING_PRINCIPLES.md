@@ -23,7 +23,7 @@
 
 * Інтерфейс IChatServiceCallback: Окремий інтерфейс для зворотних викликів (callback), що дозволяє клієнту реалізовувати лише логіку оновлення інтерфейсу.
 
-        ChatLibrary/ChatService.cs:20
+    [ChatLibrary/ChatService.cs:20](https://github.com/ipz243yaiv-debug/KPZ_lab1/blob/main/ChatLibrary/Class1.cs#L21-L28)
 ## 3. Don't Repeat Yourself (DRY) - Не повторюйся
 
 Уникання дублювання логіки в коді.
