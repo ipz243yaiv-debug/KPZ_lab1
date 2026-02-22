@@ -38,7 +38,7 @@
 
 * Метод Connect: Виконує лише мінімально необхідний набір дій: перевірку дублікатів, створення об'єкта та сповіщення інших користувачів. Використання стандартних засобів LINQ (RemoveAll) робить логіку прозорою.
 
-        ChatLibrary/ChatService.cs:45
+    [ChatLibrary/ChatService.cs:45](https://github.com/ipz243yaiv-debug/KPZ_lab1/blob/main/ChatLibrary/Class1.cs#L43-L57)
 
 ## 5. Separation of Concerns - Розподіл відповідальностей
 
